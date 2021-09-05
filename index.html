@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <h1 id="title">What matters most to you in life?<h1>
+    <p id="description">
+      <em> An inquisition on what it means, to live meaningfully.</em>
+    </p>
+    <div class="container">
+    <form id="survey-form">
+      <label id="name-label">Name:</label>
+      <input type="text" name="name" id="name" required placeholder="alias"></input><br>
+      <label id="email-label"> Email:</label>
+      <input type="email" name="email" id="email" required placeholder="email"></input><br>
+      <label id="number-label"> Number:</label>
+      <input type="number" name="number" id="number" min="0" max="100" required placeholder="satisfaction /100"></input><br>
+      <label for="choices" id="soca"> Choose what matters most to you:</label>
+      <select id="dropdown" name="choices">
+        <option value="Spiritual Pursuit">Spiritual Pursuit</option>
+        <option value="Lifelong Learning">Lifelong Learning</option>
+        <option value="Interpersonal Relationships">Interpersonal Relationships</option>
+        <option value="Monetary Success">Monetary Success</option>
+        <option value="Teaching the Youth">Teaching the Youth</option>
+      </select>
+      <br>
+      <br>
+      <label id="fav_passtime-label">What would be your passtime of choice?:</label>
+      <br>
+
+        <input type="radio" name="fav_passtime" id="xxx" value="Walks in nature">
+        <label for="xxx">Walks in nature</label><br>
+        <input type="radio" name="fav_passtime" id="xxxx" value="Learn about something">
+        <label for="xxxx">Learning about something</label><br>
+        <input type="radio" name="fav_passtime" id="xxxxx" value="Talk to friends">
+        <label for="xxxxx">Talking to friends</label><br>
+
+      <br>
+      <label id="interest-labels"">What would you like to have more of?</label> <br>
+        <input type="checkbox" name="Skills" value="Skills" id="Skills">
+        <label for="Skills"> Skills</label><br>
+        <input type="checkbox" name="Ideas" value="Ideas" id="Ideas">
+        <label for="Ideas"> Ideas</label><br>
+        <input type="checkbox" name="information" value="information" id="information">
+        <label for="information">Information</label><br>
+      <br>
+      <textarea placeholder:"What should we consider?" style="color: green;">What else should we consider? </textarea><br>
+      <br>
+      <input type="submit" id="submit">
+      <br>
+    </form>
+    </div>
+     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
